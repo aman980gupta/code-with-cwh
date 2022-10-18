@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lis_itm .na1 .lis1 a{
+    text-decoration: none;
+}
+.ll1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    background-color: #1d1b31;
+}
+.ll1 .logo{
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+.ll1 .logo  i{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    height: 50px;
+    min-width: 79px;
+    line-height: 50px;
+}
+.na1 .lis1{
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 0px 13px;
+    width: auto;
+    align-items: center;
+    text-decoration: none;
+}
+
+.lis_itm .na1 .lis1 i{
+    color: darkslategray;
+    font-size: 30px;
+    
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+}
+.lis_itm .na1 .lis1 strong{
+    color: #fff;
+    font-size: 25px;
+
+}
+.qw1{
+    color: rgb(27, 16, 16);
+    background-color: rgb(70, 52, 30);
+}
+.qw1 .qw2 .qw3{
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.qw1 .qw2 .qw3 .qw7{
+    text-decoration: none;
+
+
+    
+    
+}
+.qw1 .qw2 .qw3  .qw6 .qw7 i{
+    color: darkslategray;
+    font-size: 30px;
+    
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    
+    
+}
+.qw1 .qw2 .qw3  .qw6 .qw7 .qw8{
+    color: #fff;
+}
+
+
+
+
+.sunli1{
+    /* padding: 6px 6px 14px 80px; */
+    margin-top: -50px;
+    position: absolute;
+    left: 70%;
+    background-color: #1d1b31;
+    
+
+}
+.sunli1 .sunli2{
+    list-style: none;
+}
+.sunli1 .sunli2 .sunli3 a{
+    text-decoration: none;
+}
+.sunli1 .sunli2 .sunli3 a span{
+    color: rgb(255, 250, 250);
+    font-size: 20px;
+    
+    line-height: 20px;
+    
+    
+
+}
+
+.qw1 .qw2 .qw3 .sunli1 {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.qw1 .qw2 .qw3:hover .sunli1{
+    opacity: 1;
+    pointer-events: auto;
+}
+.qw1 .qw2 .qw3:hover .sunli1 .sunli2 .sunli3 a:hover{
+    color: aquamarine;
+    background-color: #464647;
+}
+.qw1 .qw2 .qw3:hover{
+    
+    background-color: rgb(23, 78, 78);
+}
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="ll1">
+        <div class="logo"><i class='bx bxl-steam'></i>
+            <span>Stream</span>
+
+        </div>
+        <div class="lis_itm">
+            <ul class="na1">
+                <li class="lis1"><a href="#">
+                        <i class='bx bxs-stopwatch'></i>
+                        <strong>work</strong>
+                    </a>
+                </li>
+                <li class="lis1"><a href="#"><i class='bx bxs-stopwatch'></i>
+                        <strong>menu</strong><i class='bx bx-chevron-down'></i></a>
+                </li>
+                <li class="lis1"><a href="#"><i class='bx bxs-stopwatch'></i>
+                        <strong>here</strong></a>
+                </li>
+                <li class="lis1"><a href="#"><i class='bx bxs-stopwatch'></i>
+                        <strong>work</strong><i class='bx bx-chevron-down'></i></a>
+                </li>
+                <li class="lis1"><a href="#"><i class='bx bxs-stopwatch'></i>
+                        <strong>price</strong><i class='bx bx-chevron-down'></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="qw1">
+            <ul class="qw2">
+                <li class="qw3">
+                    <div class="qw6">
+                        <a class="qw7" href="#">
+                            <i class='bx bx-menu'></i>
+                            <span class="qw8">menu</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li class="qw3">
+                    <div class="qw6">
+                        <a class="qw7" href="#">
+                            <i class='bx bx-sidebar'></i>
+                            <span class="qw8">side</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li class="qw3">
+                    <div class="qw6">
+                        <a class="qw7" href="#">
+                            <i class='bx bx-money'></i>
+                            <span class="qw8">price</span>
+                        </a><i class='bx bx-chevron-down arrow' ></i>
+
+                    </div>
+                    <ul class="sunli1">
+                        <li class="sunli2">
+                            <div class="sunli3">
+                                <a href="#"><span>monwew</span></a>
+
+                            </div>
+
+                        </li>
+                        <li class="sunli2">
+                            <div class="sunli3">
+                                <a href="#"><span>mkamskdnua</span></a>
+
+                            </div>
+
+                        </li>
+                        <li class="sunli2">
+                            <div class="sunli3">
+                                <a href="#"><span>msdiwwwajda</span></a>
+
+                            </div>
+
+                        </li>
+                        <li class="sunli2">
+                            <div class="sunli3">
+                                <a href="#"><span>wiodiadowiao</span></a>
+
+                            </div>
+
+                        </li>
+                    </ul>
+                </li>
+                <li class="qw3">
+                    <div class="qw6">
+                        <a class="qw7" href="#">
+                            <i class='bx bxl-trip-advisor'></i>
+                            <span class="qw8">adress</span>
+
+                        </a>
+                    </div>
+                </li>
+                <li class="qw3">
+                    <div class="qw6">
+                        <a class="qw7" href="#">
+                            <i class='bx bxl-trip-advisor'></i>
+                            <span class="qw8">warr</span>
+
+                        </a><i class='bx bx-chevron-down'></i>
+                        <ul class="sunli1">
+                            <li class="sunli2">
+                                <div class="sunli3">
+                                    <a href="#"><span>sjusjuhw</span></a>
+
+                                </div>
+
+                            </li>
+                            <li class="sunli2">
+                                <div class="sunli3">
+                                    <a href="#"><span>sduqhiuwua</span></a>
+
+                                </div>
+
+                            </li>
+                            <li class="sunli2">
+                                <div class="sunli3">
+                                    <a href="#"><span>whduqwhudajda</span></a>
+
+                                </div>
+
+                            </li>
+                            <li class="sunli2">
+                                <div class="sunli3">
+                                    <a href="#"><span>adakdaosiao</span></a>
+
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+<script>
+    let arrow = document.querySelectorAll(".arrow");
+    for (var i=0; i< arrow.length; i++){
+        arrow[i].addEventListener("click",(e)=>{
+            let arrowParent= e.target.parentElement.parentElement;
+            console.log(arrowParent);
+            arrowParent.classlist.toggel("show");
+        }
+        );
+    }
+</script>
+
+</body>
+
+</html>

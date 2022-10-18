@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("img/coffee-2760064.jpg");
+    height: 1000px;
+}
+    
+header{
+    width: 100%;
+    margin: auto;
+    /* background-color: salmon; */
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: white;
+}
+.left img{
+    width: 90px;
+    height: 50px;
+}
+.mid{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 800px;
+    margin: 20px 20px;
+    text-transform: capitalize;
+    font-size: 19px;
+    color: white;
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    float: right;
+    margin: 20px 20px;
+}
+.mid ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.mid ul li a{
+    text-decoration: none;
+    color: white;
+}
+h5{
+    text-align: center;
+}
+
+
+.btn{
+    width: 80px;
+    border-radius: 5px;
+    height: 30px;
+    color:white;
+    background-color: black;
+}
+.di3 {
+    width: 37%;
+    margin: 70px 120px;
+    padding: 80px 80px;
+    /* border: brown solid 2px; */
+}
